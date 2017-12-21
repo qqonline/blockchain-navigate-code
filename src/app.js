@@ -7,8 +7,15 @@ import { getLanguage } from './shared/util';
 import dbENUS from './db-en-US';
 import dbZHCN from './db-zh-CN';
 
+/**
+ * 
+ * TODO：默认CN，以后有时间再适配EN
+ */
+
 let db = {};
-const language = getLanguage();
+// const language = getLanguage();
+const language = 'zh-CN';
+
 switch(language){
   case 'en-US':
     db = dbENUS;

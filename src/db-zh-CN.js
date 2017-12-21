@@ -47,6 +47,12 @@ export default [
         title: 'Binance',
         description: '',
         icon: ''
+      },
+      {
+        link: 'https://big.one/',
+        title: 'BigONE',
+        description: '',
+        icon: ''
       }
     ]
   },

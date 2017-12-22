@@ -82,6 +82,12 @@ export default [
         title: 'Etherscan',
         description: '',
         icon: ''
+      },
+      {
+        link: 'https://exchangewar.info/',
+        title: '全球交易所数据排行',
+        description: '',
+        icon: ''
       }
     ]
   },
@@ -108,7 +114,13 @@ export default [
       },
       {
         link: 'http://bixin.jgy.com/',
-        title: 'jgy数资财经',
+        title: 'JGY数资财经',
+        description: '',
+        icon: ''
+      },
+      {
+        link: 'https://www.ccn.com/',
+        title: 'CCN',
         description: '',
         icon: ''
       }
@@ -125,7 +137,32 @@ export default [
       },
       {
         link: 'http://ethdocs.org/en/latest/',
-        title: 'ETH Document'
+        title: 'ETH Documentation',
+        description: '',
+        icon: ''
+      },
+      {
+        link: 'https://eosio.github.io/eos/',
+        title: 'EOS.IO Documentation',
+        description: '',
+        icon: ''
+      },
+      {
+        title: 'https://bitcoin.org/zh_CN/getting-started',
+        title: '比特币入门指南',
+        description: '',
+        icon: ''
+      }
+    ]
+  },
+  {
+    tag: '应用',
+    dataSource: [
+      {
+        link: 'https://www.cryptokitties.co/',
+        title: 'CryptoKitties',
+        description: '',
+        icon: ''
       }
     ]
   }

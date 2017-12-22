@@ -148,7 +148,7 @@ export default [
         icon: ''
       },
       {
-        title: 'https://bitcoin.org/zh_CN/getting-started',
+        link: 'https://bitcoin.org/zh_CN/getting-started',
         title: '比特币入门指南',
         description: '',
         icon: ''

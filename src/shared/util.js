@@ -15,3 +15,7 @@ function decision(language){
     return 'en-US';
   }
 }
+
+export function getProtocol(){
+  return location.protocol;
+}

@@ -1,6 +1,7 @@
 import React, { PureComponent } from 'react';
 import PropTypes from 'prop-types';
 import './defaultHome.less';
+import { getProtocol } from '../../shared/util';
 
 const propTypes = {
   
@@ -34,6 +35,7 @@ class DefaultHomeView extends PureComponent{
 
   render(){
     const { db } = this.props;
+    const curUrl = getProtocol() + '//icepy.me/blockchain-navigate';
     return (
       <div className="container">
         <div className="header">
@@ -45,7 +47,7 @@ class DefaultHomeView extends PureComponent{
               <img src="https://gw.alicdn.com/tfs/TB1EZyijxrI8KJjy0FpXXb5hVXa-64-64.png" />
             </a>
           </div>
-          <a className="home-link" href="//icepy.me/blockchain-navigate">blockchain navigate</a>
+          <a className="home-link" href={ curUrl }>blockchain navigate</a>
         </div>
 
         <div className="content">

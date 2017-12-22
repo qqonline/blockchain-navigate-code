@@ -88,6 +88,52 @@ export default [
         title: '全球交易所数据排行',
         description: '',
         icon: ''
+      },
+      {
+        link: 'http://pieifo.com/pages/endefault.html',
+        title: 'Pieifo',
+        description: '',
+        icon: ''
+      }
+    ]
+  },
+  {
+    tag: 'ICO',
+    dataSource: [
+      {
+        link: 'https://www.icoroot.com/',
+        title: 'ICOROOT',
+        description: '',
+        icon: ''
+      },
+      {
+        link: 'https://topicolist.com/',
+        title: 'TOP ICO LIST',
+        description: '',
+        icon: ''
+      }
+    ]
+  },
+  {
+    tag: '区块数据查询',
+    dataSource: [
+      {
+        link: 'https://btc.com/',
+        title: 'BTC blocks',
+        description: '',
+        icon: ''
+      },
+      {
+        link: 'https://etherscan.io/blocks',
+        title: 'ETH blocks',
+        description: '',
+        icon: ''
+      },
+      {
+        link: 'https://chainz.cryptoid.info/ltc/',
+        title: 'LTC blocks',
+        description: '',
+        icon: ''
       }
     ]
   },
@@ -109,6 +155,12 @@ export default [
       {
         link: 'http://www.chainfor.com/',
         title: '链向财经',
+        description: '',
+        icon: ''
+      },
+      {
+        link: 'http://www.8btc.com/',
+        title: '巴比特',
         description: '',
         icon: ''
       },
@@ -150,6 +202,18 @@ export default [
       {
         link: 'https://bitcoin.org/zh_CN/getting-started',
         title: '比特币入门指南',
+        description: '',
+        icon: ''
+      },
+      {
+        link: 'http://wangxiaoming.com/',
+        title: '汪晓明 blog',
+        description: '',
+        icon: ''
+      },
+      {
+        link: 'http://liyuechun.org/#blog',
+        title: '黎跃春 blog',
         description: '',
         icon: ''
       }

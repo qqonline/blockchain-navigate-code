@@ -4,7 +4,7 @@ export default [
     dataSource: [
       {
         link: 'https://zhuanlan.zhihu.com/c_136387043',
-        title: '数据与统计知乎专栏',
+        title: '数据与统计',
         description: '',
         icon: ''
       }
@@ -60,14 +60,32 @@ export default [
     tag: '工具',
     dataSource: [
       {
-        link: 'https://www.bbtrade.cc/',
-        title: 'BBEX.IO-换币',
+        link: 'https://exchangewar.info/',
+        title: '全球交易所数据排行',
+        description: '',
+        icon: ''
+      },
+      {
+        link: 'https://coinmarketcap.com/exchanges/volume/24-hour/',
+        title: '24-Hour',
         description: '',
         icon: ''
       },
       {
         link: 'http://bixin.feixiaohao.com/',
         title: '非小号-看行情',
+        description: '',
+        icon: ''
+      },
+      {
+        link: 'https://cryptowat.ch/',
+        title: 'Cryptowatch',
+        description: '',
+        icon: ''
+      },
+      {
+        link: 'https://www.bbtrade.cc/',
+        title: 'BBEX.IO-换币',
         description: '',
         icon: ''
       },
@@ -80,12 +98,6 @@ export default [
       {
         link: 'https://etherscan.io/',
         title: 'Etherscan',
-        description: '',
-        icon: ''
-      },
-      {
-        link: 'https://exchangewar.info/',
-        title: '全球交易所数据排行',
         description: '',
         icon: ''
       },
@@ -138,7 +150,7 @@ export default [
     ]
   },
   {
-    tag: '行业媒体',
+    tag: '媒体',
     dataSource: [
       {
         link: 'http://m.bishijie.com/kuaixun',
@@ -179,7 +191,7 @@ export default [
     ]
   },
   {
-    tag: '技术社区',
+    tag: '专业社区',
     dataSource: [
       {
         link: 'http://ethfans.org/',
@@ -206,6 +218,12 @@ export default [
         icon: ''
       },
       {
+        link: 'https://solidity.readthedocs.io/en/latest/index.html',
+        title: 'Solidity',
+        description: '',
+        icon: ''
+      },
+      {
         link: 'http://wangxiaoming.com/',
         title: '汪晓明 blog',
         description: '',
@@ -225,6 +243,12 @@ export default [
       {
         link: 'https://www.cryptokitties.co/',
         title: 'CryptoKitties',
+        description: '',
+        icon: ''
+      },
+      {
+        link: 'https://www.satoshidice.com/',
+        title: '中本聪骰子',
         description: '',
         icon: ''
       }

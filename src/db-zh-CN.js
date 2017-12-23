@@ -53,6 +53,12 @@ export default [
         title: 'BigONE',
         description: '',
         icon: ''
+      },
+      {
+        link: 'https://otcbtc.com/',
+        title: 'OTCBTC',
+        description: '',
+        icon: ''
       }
     ]
   },
@@ -191,7 +197,7 @@ export default [
     ]
   },
   {
-    tag: '专业社区',
+    tag: '技术',
     dataSource: [
       {
         link: 'http://ethfans.org/',
@@ -224,6 +230,24 @@ export default [
         icon: ''
       },
       {
+        link: 'http://bitcoin-on-nodejs.ebookchain.org/',
+        title: 'Node.js开发加密货币',
+        description: '',
+        icon: ''
+      },
+      {
+        link: 'https://www.gitbook.com/book/yeasy/blockchain_guide/details',
+        title: '区块链技术指南',
+        description: '',
+        icon: ''
+      },
+      {
+        link: 'http://chainx.org/home',
+        title: 'chainx',
+        description: '',
+        icon: ''
+      },
+      {
         link: 'http://wangxiaoming.com/',
         title: '汪晓明 blog',
         description: '',
@@ -232,6 +256,17 @@ export default [
       {
         link: 'http://liyuechun.org/#blog',
         title: '黎跃春 blog',
+        description: '',
+        icon: ''
+      }
+    ]
+  },
+  {
+    tag: '梯子',
+    dataSource: [
+      {
+        link: 'https://github.com/shadowsocks',
+        title: 'shadowsocks',
         description: '',
         icon: ''
       }

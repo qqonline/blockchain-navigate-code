@@ -37,7 +37,7 @@ export default [
         icon: ''
       },
       {
-        link: 'https://www.huobi.pro/zh-cn/',
+        link: 'https://www.huobipro.com/',
         title: '火币Pro',
         description: '',
         icon: ''

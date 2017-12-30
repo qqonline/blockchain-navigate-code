@@ -2,16 +2,38 @@ import React, { PureComponent } from 'react';
 import PropTypes from 'prop-types';
 import './defaultHome.less';
 import { getProtocol } from '../../shared/util';
+import dbENUS from '../../db-en-US';
+import dbZHCN from '../../db-zh-CN';
+import Header from '../../components/header';
+import Footer from '../../components/footer';
+
+/**
+ * 
+ * TODO：默认CN，以后有时间再适配EN
+ */
+
+let db = {};
+// const language = getLanguage();
+const language = 'zh-CN';
+
+switch(language){
+  case 'en-US':
+    db = dbENUS;
+    break;
+  case 'zh-CN':
+    db = dbZHCN;
+    break;
+}
 
 const propTypes = {
-  
+  db: PropTypes.array
 };
 
 const defaultProps = {
-
+  db: db
 }
 
-class DefaultHomeView extends PureComponent{
+class DefaultHome extends PureComponent{
   
   constructor(props){
     super(props);
@@ -35,21 +57,9 @@ class DefaultHomeView extends PureComponent{
 
   render(){
     const { db } = this.props;
-    const curUrl = getProtocol() + '//icepy.me/blockchain-navigate';
     return (
       <div className="container">
-        <div className="header">
-          <div className="header-sidebar-menu">
-            <a 
-              href="https://github.com/icepy/blockchain-navigate-code"
-              target="_blank"
-            >
-              <img src="https://gw.alicdn.com/tfs/TB1EZyijxrI8KJjy0FpXXb5hVXa-64-64.png" />
-            </a>
-          </div>
-          <a className="home-link" href={ curUrl }>blockchain navigate</a>
-        </div>
-
+        <Header defaultSelectKey="home"/>
         <div className="content">
           {
             db.map((v,i) => {
@@ -79,16 +89,13 @@ class DefaultHomeView extends PureComponent{
             })
           }
         </div>
-
-        <div className="copy-right">
-          <span>© 2017 blockchain navigate by </span> <a href="https://github.com/icepy">icepy</a>
-        </div>
+        <Footer/>
       </div>
     )
   }
 }
 
-DefaultHomeView.propTypes = propTypes;
-DefaultHomeView.defaultProps = defaultProps;
+DefaultHome.propTypes = propTypes;
+DefaultHome.defaultProps = defaultProps;
 
-export default DefaultHomeView;
+export default DefaultHome;

@@ -212,9 +212,27 @@ export default [
         icon: ''
       },
       {
+        link: 'https://github.com/input-output-hk/cardano-sl',
+        title: 'Cardano-sl',
+        description: '',
+        icon: ''
+      },
+      {
+        link: 'https://github.com/input-output-hk/daedalus',
+        title: 'Cardano Wallet',
+        description: '',
+        icon: ''
+      },
+      {
         link: 'https://eosio.github.io/eos/',
         title: 'EOS.IO Documentation',
         description: '',
+        icon: ''
+      },
+      {
+        link: 'https://github.com/EOSIO/eos',
+        title: 'EOS rep',
+        escription: '',
         icon: ''
       },
       {

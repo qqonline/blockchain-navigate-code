@@ -63,9 +63,13 @@ class DefaultHome extends PureComponent{
         <div className="content">
           {
             db.map((v,i) => {
+              let tabClass = 'home-tab';
+              if (i === 0){
+                tabClass += ' home-hot';
+              }
               return (
                 <div className="home-item" key={ 'icepy' + i }>
-                  <div className="home-tab">
+                  <div className={ tabClass }>
                     { v.tag }
                   </div>
                   <div className="home-item-sub-group">

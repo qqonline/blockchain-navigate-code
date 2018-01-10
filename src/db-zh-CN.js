@@ -1,10 +1,10 @@
 export default [
   {
-    tag: '美国往事',
+    tag: 'Analysis Price',
     dataSource: [
       {
-        link: 'https://zhuanlan.zhihu.com/c_136387043',
-        title: '数据与统计',
+        link: 'https://github.com/icepy/blockchain-navigate-code/labels/Hot',
+        title: '每周基于历史数据的价格分析',
         description: '',
         icon: ''
       }
@@ -75,7 +75,7 @@ export default [
     ]
   },
   {
-    tag: '工具',
+    tag: '交易辅助',
     dataSource: [
       {
         link: 'https://exchangewar.info/',
@@ -130,15 +130,10 @@ export default [
         title: 'State Of The Dapps',
         description: '',
         icon: ''
-      }
-    ]
-  },
-  {
-    tag: 'ICO',
-    dataSource: [
+      },
       {
-        link: 'https://topicolist.com/',
-        title: 'TOP ICO LIST',
+        link: 'https://github.com/dbarobin/mycrypto',
+        title: '个人加密货币资产统计',
         description: '',
         icon: ''
       }
@@ -168,6 +163,17 @@ export default [
     ]
   },
   {
+    tag: 'ICO',
+    dataSource: [
+      {
+        link: 'https://topicolist.com/',
+        title: 'TOP ICO LIST',
+        description: '',
+        icon: ''
+      }
+    ]
+  },
+  {
     tag: '技术',
     dataSource: [
       {
@@ -191,6 +197,12 @@ export default [
       {
         link: 'https://github.com/input-output-hk/daedalus',
         title: 'Cardano Wallet',
+        description: '',
+        icon: ''
+      },
+      {
+        link: 'https://cardanodocs.com/introduction/',
+        title: 'Cardano Settlement Layer Documentation',
         description: '',
         icon: ''
       },
@@ -253,6 +265,53 @@ export default [
         title: 'Blockchain Tutorial',
         description: '',
         icon: ''
+      },
+      {
+        link: 'https://rwh.readthedocs.io/en/latest/chp/1.html',
+        title: 'Real World Haskell 中文版',
+        description: '',
+        icon: ''
+      }
+    ]
+  },
+  {
+    tag: 'Develop Kit',
+    dataSource: [
+      {
+        link: 'https://github.com/trufflesuite/truffle',
+        title: 'Truffle',
+        description: '',
+        icon: ''
+      },
+      {
+        link: 'https://github.com/ethereum/web3.js',
+        title: 'web3.js',
+        description: '',
+        icon: ''
+      },
+      {
+        link: 'https://github.com/MetaMask/metamask-extension',
+        title: 'metamask-extension',
+        description: '',
+        icon: ''
+      },
+      {
+        link: 'https://etherparty.com/',
+        title: 'EtherParty',
+        description: '',
+        icon: ''
+      },
+      {
+        link: 'https://blockapps.net/',
+        title: 'BlockApps',
+        description: '',
+        icon: ''
+      },
+      {
+        link: 'https://populus.readthedocs.io/en/latest/',
+        title: 'Populus',
+        description: '',
+        icon: ''
       }
     ]
   },
@@ -291,18 +350,6 @@ export default [
       {
         link: 'http://www.chainfor.com/',
         title: '链向财经',
-        description: '',
-        icon: ''
-      },
-      {
-        link: 'http://bixin.jgy.com/',
-        title: 'JGY数资财经',
-        description: '',
-        icon: ''
-      },
-      {
-        link: 'https://www.ccn.com/',
-        title: 'CCN',
         description: '',
         icon: ''
       }

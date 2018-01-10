@@ -61,14 +61,14 @@ export default [
         icon: ''
       },
       {
-        link: 'https://www.okex.com/',
-        title: 'OKEX',
+        link: 'https://www.huobipro.com/',
+        title: '火币Pro',
         description: '',
         icon: ''
       },
       {
-        link: 'https://www.huobipro.com/',
-        title: '火币Pro',
+        link: 'https://www.okex.com/',
+        title: 'OKEX',
         description: '',
         icon: ''
       }
@@ -77,6 +77,12 @@ export default [
   {
     tag: '交易辅助',
     dataSource: [
+      {
+        link: 'https://chrome.google.com/webstore/detail/etheraddresslookup/pdknmigbbbhmllnmgdfalmedcmcefdfn',
+        title: 'etheraddresslookup',
+        description: '',
+        icon: ''
+      },
       {
         link: 'https://exchangewar.info/',
         title: '全球交易所数据排行',

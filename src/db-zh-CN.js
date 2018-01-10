@@ -24,6 +24,12 @@ export default [
         title: 'Blockchain',
         description: '',
         icon: ''
+      },
+      {
+        link: 'http://bitpie.com/',
+        title: 'Bitpie',
+        description: '',
+        icon: ''
       }
     ]
   },
@@ -31,19 +37,7 @@ export default [
     tag: '交易所',
     dataSource: [
       {
-        link: 'https://www.okex.com/',
-        title: 'OKEX',
-        description: '',
-        icon: ''
-      },
-      {
-        link: 'https://www.huobipro.com/',
-        title: '火币Pro',
-        description: '',
-        icon: ''
-      },
-      {
-        link: 'https://www.binance.com/',
+        link: 'https://www.binance.com/?ref=13388516',
         title: 'Binance',
         description: '',
         icon: ''
@@ -55,8 +49,26 @@ export default [
         icon: ''
       },
       {
+        link: 'https://localbitcoins.com/',
+        title: 'Localbitcoins',
+        description: '',
+        icon: ''
+      },
+      {
         link: 'https://otcbtc.com/',
         title: 'OTCBTC',
+        description: '',
+        icon: ''
+      },
+      {
+        link: 'https://www.okex.com/',
+        title: 'OKEX',
+        description: '',
+        icon: ''
+      },
+      {
+        link: 'https://www.huobipro.com/',
+        title: '火币Pro',
         description: '',
         icon: ''
       }
@@ -112,18 +124,18 @@ export default [
         title: 'Pieifo',
         description: '',
         icon: ''
+      },
+      {
+        link: 'https://www.stateofthedapps.com/',
+        title: 'State Of The Dapps',
+        description: '',
+        icon: ''
       }
     ]
   },
   {
     tag: 'ICO',
     dataSource: [
-      {
-        link: 'https://www.icoroot.com/',
-        title: 'ICOROOT',
-        description: '',
-        icon: ''
-      },
       {
         link: 'https://topicolist.com/',
         title: 'TOP ICO LIST',
@@ -150,47 +162,6 @@ export default [
       {
         link: 'https://chainz.cryptoid.info/ltc/',
         title: 'LTC blocks',
-        description: '',
-        icon: ''
-      }
-    ]
-  },
-  {
-    tag: '媒体',
-    dataSource: [
-      {
-        link: 'http://m.bishijie.com/kuaixun',
-        title: '币世界快讯',
-        description: '',
-        icon: ''
-      },
-      {
-        link: 'http://www.jinse.com/',
-        title: '金色财经',
-        description: '',
-        icon: ''
-      },
-      {
-        link: 'http://www.chainfor.com/',
-        title: '链向财经',
-        description: '',
-        icon: ''
-      },
-      {
-        link: 'http://www.8btc.com/',
-        title: '巴比特',
-        description: '',
-        icon: ''
-      },
-      {
-        link: 'http://bixin.jgy.com/',
-        title: 'JGY数资财经',
-        description: '',
-        icon: ''
-      },
-      {
-        link: 'https://www.ccn.com/',
-        title: 'CCN',
         description: '',
         icon: ''
       }
@@ -248,7 +219,7 @@ export default [
         icon: ''
       },
       {
-        link: 'http://bitcoin-on-nodejs.ebookchain.org/',
+        link: 'https://github.com/imfly/bitcoin-on-nodejs',
         title: 'Node.js开发加密货币',
         description: '',
         icon: ''
@@ -276,6 +247,12 @@ export default [
         title: '黎跃春 blog',
         description: '',
         icon: ''
+      },
+      {
+        link: 'https://blockchain.liuchengxu.org/',
+        title: 'Blockchain Tutorial',
+        description: '',
+        icon: ''
       }
     ]
   },
@@ -287,12 +264,71 @@ export default [
         title: 'shadowsocks',
         description: '',
         icon: ''
+      },
+      {
+        link: 'https://github.com/SoftEtherVPN/SoftEtherVPN',
+        title: 'SoftEtherVPN',
+        description: '',
+        icon: ''
       }
     ]
   },
   {
-    tag: '应用',
+    tag: '媒体',
     dataSource: [
+      {
+        link: 'http://m.bishijie.com/kuaixun',
+        title: '币世界快讯',
+        description: '',
+        icon: ''
+      },
+      {
+        link: 'http://www.jinse.com/',
+        title: '金色财经',
+        description: '',
+        icon: ''
+      },
+      {
+        link: 'http://www.chainfor.com/',
+        title: '链向财经',
+        description: '',
+        icon: ''
+      },
+      {
+        link: 'http://bixin.jgy.com/',
+        title: 'JGY数资财经',
+        description: '',
+        icon: ''
+      },
+      {
+        link: 'https://www.ccn.com/',
+        title: 'CCN',
+        description: '',
+        icon: ''
+      }
+    ]
+  },
+  {
+    tag: '产品',
+    dataSource: [
+      {
+        link: 'https://www.bitask.org/',
+        title: '币问',
+        description: '',
+        icon: ''
+      },
+      {
+        link: 'https://zt.bihu.com/?id=39768',
+        title: '币乎',
+        description: '',
+        icon: ''
+      },
+      {
+        link: 'https://bcage.one/',
+        title: '区块链技术指北',
+        description: '',
+        icon: ''
+      },
       {
         link: 'https://www.cryptokitties.co/',
         title: 'CryptoKitties',

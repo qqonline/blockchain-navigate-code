@@ -102,6 +102,12 @@ export default [
         icon: ''
       },
       {
+        link: 'http://bitdog.me/',
+        title: 'bitdog',
+        description: '',
+        icon: ''
+      },
+      {
         link: 'https://cryptowat.ch/',
         title: 'Cryptowatch',
         description: '',
@@ -365,20 +371,32 @@ export default [
     tag: '产品',
     dataSource: [
       {
+        link: 'https://bcage.one/',
+        title: '区块链技术指北',
+        description: '',
+        icon: ''
+      },
+      {
+        link: 'https://steemit.com/',
+        title: 'Steemit',
+        description: '',
+        icon: ''
+      },
+      {
         link: 'https://www.bitask.org/',
         title: '币问',
         description: '',
         icon: ''
       },
       {
-        link: 'https://zt.bihu.com/?id=39768',
-        title: '币乎',
+        link: 'http://in.ibeechat.org/spread/0523546',
+        title: 'BeeChat',
         description: '',
         icon: ''
       },
       {
-        link: 'https://bcage.one/',
-        title: '区块链技术指北',
+        link: 'https://zt.bihu.com/?id=39768',
+        title: '币乎',
         description: '',
         icon: ''
       },
@@ -391,6 +409,18 @@ export default [
       {
         link: 'https://www.satoshidice.com/',
         title: '中本聪骰子',
+        description: '',
+        icon: ''
+      },
+      {
+        link: 'https://mixin.one/',
+        title: 'Mixin',
+        description: '',
+        icon: ''
+      },
+      {
+        link: 'https://po.im/',
+        title: 'POIM',
         description: '',
         icon: ''
       }

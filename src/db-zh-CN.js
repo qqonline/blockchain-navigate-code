@@ -283,6 +283,18 @@ export default [
         title: 'Real World Haskell 中文版',
         description: '',
         icon: ''
+      },
+      {
+        link: 'https://github.com/bitcoinbook/bitcoinbook',
+        title: 'Mastering Bitcoin',
+        description: '',
+        icon: ''
+      },
+      {
+        link: 'https://www.amazon.com/Internet-Money-Andreas-M-Antonopoulos/dp/1537000454',
+        title: 'The Internet of Money',
+        description: '',
+        icon: ''
       }
     ]
   },
@@ -322,6 +334,114 @@ export default [
       {
         link: 'https://populus.readthedocs.io/en/latest/',
         title: 'Populus',
+        description: '',
+        icon: ''
+      },
+      {
+        link: 'https://stripe.com/bitcoin',
+        title: 'Stripe Bitcoin',
+        description: 'Accepting Bitcoin payments made easy. Great integration from Stripe.',
+        icon: ''
+      },
+      {
+        link: 'https://info.shapeshift.io/api',
+        title: 'Shapeshift',
+        description: 'Embed exchange in your app. Trusted by hundreds of apps.',
+        icon: ''
+      },
+      {
+        link: 'https://bittrex.com/home/api',
+        title: 'Bittrex',
+        description: 'Almighty API. You can do anything with it.',
+        icon: ''
+      },
+      {
+        link: 'https://poloniex.com/support/api/',
+        title: 'Poloniex',
+        description: 'The biggest exchange API. PHP and Python wrapper.',
+        icon: ''
+      },
+      {
+        link: 'https://cryptowat.ch/docs/api',
+        title: 'CryptoWatch',
+        description: 'Public REST API, providing basic information about all markets on Cryptowatch.',
+        icon: ''
+      },
+      {
+        link: 'https://azure.microsoft.com/en-in/solutions/blockchain/',
+        title: 'Microsoft BaaS',
+        description: 'Blockchain as Service (BaaS) from Microsoft Azure.',
+        icon: ''
+      },
+      {
+        link: 'https://coinmarketcap.com/api/',
+        title: 'CoinMarketCap',
+        description: 'Powerful JSON API covering 1000+ coins. Limit: 1 request per 6 sec.',
+        icon: ''
+      },
+      {
+        link: 'https://github.com/CoinCapDev/CoinCap.io',
+        title: 'CoinCap',
+        description: 'Simple and informative. Lots of altcoins. History data. No limits.',
+        icon: ''
+      },
+      {
+        link: 'https://bitpay.com/',
+        title: 'Bitpay',
+        description: '',
+        icon: ''
+      },
+      {
+        link: 'https://github.com/askmike/gekko',
+        title: 'Gekko',
+        description: '',
+        icon: ''
+      },
+      {
+        link: 'https://github.com/DeviaVir/zenbot',
+        title: 'Zenbot',
+        description: '',
+        icon: ''
+      },
+      {
+        link: 'https://openzeppelin.org/',
+        title: 'penZeppelin',
+        description: '',
+        icon: ''
+      },
+      {
+        link: 'https://www.ethereum.org/cli',
+        title: 'GETH',
+        description: '',
+        icon: ''
+      },
+      {
+        link: 'https://github.com/iurimatias/embark-framework',
+        title: 'Embark',
+        description: '',
+        icon: ''
+      },
+      {
+        link: 'https://epicenter.tv/',
+        title: 'Epicenter',
+        description: '',
+        icon: ''
+      },
+      {
+        link: 'http://www.bitcoin.kn/',
+        title: 'Bitcoin Knowledge',
+        description: '',
+        icon: ''
+      },
+      {
+        link: 'https://soundcloud.com/blockchannelshow',
+        title: 'BlockChannel',
+        description: '',
+        icon: ''
+      },
+      {
+        link: 'https://github.com/coinpride/CryptoList',
+        title: 'CryptoList',
         description: '',
         icon: ''
       }
@@ -421,6 +541,12 @@ export default [
       {
         link: 'https://po.im/',
         title: 'POIM',
+        description: '',
+        icon: ''
+      },
+      {
+        link: 'https://coinhive.com/',
+        title: 'Coinhive',
         description: '',
         icon: ''
       }

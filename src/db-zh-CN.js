@@ -555,6 +555,18 @@ export default [
         title: 'Coinhive',
         description: '',
         icon: ''
+      },
+      {
+        link: 'https://yeecall.gl.yeecall.com/activity/share/5a58cbb8fb0d7313f999129e',
+        title: 'Yeecall',
+        description: '',
+        icon: ''
+      },
+      {
+        link: 'https://lunyr.com/',
+        title: 'Lunyr',
+        description: '',
+        icon: ''
       }
     ]
   }

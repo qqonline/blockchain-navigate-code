@@ -43,6 +43,12 @@ export default [
         icon: ''
       },
       {
+        link: 'https://gate.io/ref/963416',
+        title: 'Gate.io',
+        description: '',
+        icon: ''
+      },
+      {
         link: 'https://big.one/',
         title: 'BigONE',
         description: '',

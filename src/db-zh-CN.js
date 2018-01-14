@@ -195,12 +195,6 @@ export default [
     tag: '技术',
     dataSource: [
       {
-        link: 'http://ethfans.org/',
-        title: 'ETH中文社区',
-        description: '',
-        icon: ''
-      },
-      {
         link: 'http://ethdocs.org/en/latest/',
         title: 'ETH Documentation',
         description: '',
@@ -494,11 +488,17 @@ export default [
     ]
   },
   {
-    tag: '产品',
+    tag: '产品与社区',
     dataSource: [
       {
         link: 'https://bcage.one/',
         title: '区块链技术指北',
+        description: '',
+        icon: ''
+      },
+      {
+        link: 'https://www.filecoinclub.com/',
+        title: 'FileCoinClub',
         description: '',
         icon: ''
       },
@@ -511,6 +511,18 @@ export default [
       {
         link: 'https://www.bitask.org/',
         title: '币问',
+        description: '',
+        icon: ''
+      },
+      {
+        link: 'http://ethfans.org/',
+        title: 'ETH中文社区',
+        description: '',
+        icon: ''
+      },
+      {
+        link: 'http://ipfser.org/',
+        title: 'ipfser',
         description: '',
         icon: ''
       },

@@ -3,8 +3,8 @@ export default [
     tag: 'Analysis Price',
     dataSource: [
       {
-        link: 'https://github.com/icepy/blockchain-navigate-code/labels/Hot',
-        title: '每周基于历史数据的价格分析',
+        link: 'https://zhuanlan.zhihu.com/c_136387043',
+        title: '比特币，莱特币，以太坊，以太经典，BCH，Dash, XRP价格分析',
         description: '',
         icon: ''
       }
@@ -467,18 +467,6 @@ export default [
   {
     tag: '媒体',
     dataSource: [
-      {
-        link: 'http://m.bishijie.com/kuaixun',
-        title: '币世界快讯',
-        description: '',
-        icon: ''
-      },
-      {
-        link: 'http://www.jinse.com/',
-        title: '金色财经',
-        description: '',
-        icon: ''
-      },
       {
         link: 'http://www.chainfor.com/',
         title: '链向财经',

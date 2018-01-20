@@ -7,6 +7,12 @@ export default [
         title: '比特币，莱特币，以太坊，以太经典，BCH，Dash, XRP价格分析',
         description: '',
         icon: ''
+      },
+      {
+        link: 'https://zhuanlan.zhihu.com/c_157075902',
+        title: 'AltCoin 山寨币',
+        description: '',
+        icon: ''
       }
     ]
   },
@@ -28,6 +34,12 @@ export default [
       {
         link: 'http://bitpie.com/',
         title: 'Bitpie',
+        description: '',
+        icon: ''
+      },
+      {
+        link: 'https://www.myetherwallet.com/',
+        title: 'MyEtherWallet',
         description: '',
         icon: ''
       }
@@ -86,6 +98,12 @@ export default [
       {
         link: 'https://chrome.google.com/webstore/detail/etheraddresslookup/pdknmigbbbhmllnmgdfalmedcmcefdfn',
         title: 'etheraddresslookup',
+        description: '',
+        icon: ''
+      },
+      {
+        link: 'http://cryptomiso.com/',
+        title: 'Cryptomiso',
         description: '',
         icon: ''
       },
@@ -154,6 +172,30 @@ export default [
         title: '个人加密货币资产统计',
         description: '',
         icon: ''
+      },
+      {
+        link: 'http://index.baidu.com/?tpl=trend&type=0&area=0&time=13&word=%C7%F8%BF%E9%C1%B4%2C%B1%C8%CC%D8%B1%D2%2Cico%2C%D2%D4%CC%AB%B7%BB',
+        title: '区块链百度指数',
+        description: '',
+        icon: ''
+      },
+      {
+        link: 'http://index.wxadd.com/rank/bitcoin',
+        title: '区块链微信指数',
+        description: '',
+        icon: ''
+      },
+      {
+        link: 'http://www.btcjl.com/',
+        title: '比特币精灵',
+        description: '',
+        icon: ''
+      },
+      {
+        link: 'http://www.bityixia.com/bit/binance',
+        title: 'bityixia',
+        description: '',
+        icon: ''
       }
     ]
   },
@@ -188,6 +230,12 @@ export default [
         title: 'TOP ICO LIST',
         description: '',
         icon: ''
+      },
+      {
+        link: 'http://ico-china.info/',
+        title: 'ICO CHINA',
+        description: '',
+        icon: ''
       }
     ]
   },
@@ -197,6 +245,12 @@ export default [
       {
         link: 'http://ethdocs.org/en/latest/',
         title: 'ETH Documentation',
+        description: '',
+        icon: ''
+      },
+      {
+        link: 'https://ipfs.io/docs/',
+        title: 'ipfs',
         description: '',
         icon: ''
       },
@@ -465,11 +519,100 @@ export default [
     ]
   },
   {
+    tag: '矿池矿机',
+    dataSource: [
+      {
+        link: 'https://btc.com/stats/pool',
+        title: '矿池算力排行榜',
+        description: '',
+        icon: ''
+      },
+      {
+        link: 'https://www.bitmain.com/?lang=zh-CN',
+        title: '蚂蚁矿机',
+        description: '',
+        icon: ''
+      },
+      {
+        link: 'http://www.btc.top/',
+        title: 'LTC矿池',
+        description: '',
+        icon: ''
+      },
+      {
+        link: 'https://www.f2pool.com/',
+        title: 'f2pool',
+        description: '',
+        icon: ''
+      },
+      {
+        link: 'https://pool.btc.com/',
+        title: 'BTC矿池',
+        description: '',
+        icon: ''
+      },
+      {
+        link: 'https://antpool.com/home.htm',
+        title: '蚂蚁矿池',
+        description: '',
+        icon: ''
+      },
+      {
+        link: 'https://eth.ethfans.org/',
+        title: '火星矿池',
+        description: '',
+        icon: ''
+      },
+      {
+        link: 'https://pool.bixin.com/home',
+        title: '币信矿池',
+        description: '',
+        icon: ''
+      },
+      {
+        link: 'http://www.91pool.com/hsr/',
+        title: 'HSR矿池',
+        description: '',
+        icon: ''
+      },
+      {
+        link: 'https://www.hashnest.com/',
+        title: '云挖矿-算力巢',
+        description: '',
+        icon: ''
+      },
+      {
+        link: 'http://www.91pool.com/etc/',
+        title: 'ETC矿池',
+        description: '',
+        icon: ''
+      }
+    ]
+  },
+  {
     tag: '媒体',
     dataSource: [
       {
         link: 'http://www.chainfor.com/',
         title: '链向财经',
+        description: '',
+        icon: ''
+      },
+      {
+        link: 'https://cn.tradingview.com/markets/cryptocurrencies/',
+        title: '交易员行情分析',
+        description: '',
+        icon: ''
+      },
+      {
+        link: 'https://www.reddit.com/',
+        title: 'reddit',
+        description: '',
+        icon: ''
+      },
+      {
+        link: 'http://chainb.com/',
+        title: '铅笔',
         description: '',
         icon: ''
       }

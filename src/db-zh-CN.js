@@ -114,6 +114,12 @@ export default [
         icon: ''
       },
       {
+        link: 'https://bitnodes.earn.com/',
+        title: 'Bitnodes',
+        description: '',
+        icon: ''
+      },
+      {
         link: 'https://coinmarketcap.com/exchanges/volume/24-hour/',
         title: '24-Hour',
         description: '',
@@ -347,6 +353,12 @@ export default [
       {
         link: 'https://www.amazon.com/Internet-Money-Andreas-M-Antonopoulos/dp/1537000454',
         title: 'The Internet of Money',
+        description: '',
+        icon: ''
+      },
+      {
+        link: 'https://github.com/chaozh/awesome-blockchain',
+        title: 'chaozh/awesome-blockchain',
         description: '',
         icon: ''
       }
@@ -708,6 +720,12 @@ export default [
       {
         link: 'https://lunyr.com/',
         title: 'Lunyr',
+        description: '',
+        icon: ''
+      },
+      {
+        link: 'http://portal.gems.org/',
+        title: 'Portal Gems',
         description: '',
         icon: ''
       }
